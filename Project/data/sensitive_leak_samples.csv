@@ -1,7 +1,0 @@
-text,contains_sensitive
-"Contact me at alice@example.com for details.",1
-"The backup phone number is +1 415-555-0199.",1
-"Use password=SuperSecret123 only for local tests.",1
-"My token is sk_test_ABC123XYZ456TOKEN.",1
-"This response contains no private information.",0
-"Store credentials in a vault and rotate regularly.",0

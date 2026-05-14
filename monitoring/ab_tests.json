@@ -1,0 +1,15 @@
+{
+  "current_experiment": {
+    "name": "sanity_check_test",
+    "description": "Sanity check test experiment",
+    "transformer_weight": 0.6,
+    "ml_weight": 0.2,
+    "rule_weight": 0.2,
+    "traffic_split": 0.5,
+    "sample_size": 10,
+    "duration_hours": 24
+  },
+  "experiment_results": [],
+  "total_experiments": 0,
+  "current_sample_count": 1
+}

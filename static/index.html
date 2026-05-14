@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LLM Chat App</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="app-header">
+        <h1>LLM Chat</h1>
+        <p class="subtitle">Talk to an AI assistant powered by an LLM.</p>
+      </header>
+
+      <main class="chat-container" id="chat-container"></main>
+
+      <form id="chat-form" class="chat-input-bar">
+        <textarea
+          id="message-input"
+          rows="1"
+          placeholder="Type your message and press Enter…"
+        ></textarea>
+        <button type="submit" id="send-button">Send</button>
+      </form>
+      <div id="status" class="status"></div>
+    </div>
+
+    <script src="/static/app.js"></script>
+  </body>
+  </html>
+
